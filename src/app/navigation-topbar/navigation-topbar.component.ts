@@ -12,6 +12,6 @@ export class NavigationTopbarComponent {
 
   ngOnInit(): void { }
 
-  site_name: string = 'App Name'
+  site_name: string = 'Second Brain App'
 
 }

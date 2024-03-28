@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './page-top.component.css'
 })
 export class PageTopComponent {
-  name = "Nombre de Usuario";
+  name = "Javier";
 }
