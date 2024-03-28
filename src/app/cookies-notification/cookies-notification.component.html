@@ -1,0 +1,12 @@
+<div [hidden]="isHidden" class="fixed bottom-0 left-0 w-full bg-gradient-to-t from-gray-100 to-gray-200 text-gray-800 p-4 z-50 align-middle text-center shadow-lg">
+  <p class="leading-relaxed">
+    Este sitio web utiliza cookies para mejorar su experiencia. Utilizamos cookies necesarias para
+    funcionar y analizar el tráfico. Además, utilizamos cookies opcionales para brindarle una mejor
+    experiencia y mostrarle anuncios personalizados.
+  </p>
+  <div class="flex justify-center space-x-4 mt-4">
+    <button class="px-4 py-2 rounded-none bg-blue-600 hover:bg-blue-700 text-white" (click)="acceptAllCookies()">Aceptar todas</button>
+    <button class="px-4 py-2 rounded-none bg-blue-600 hover:bg-blue-700 text-white" (click)="acceptNecessaryCookies()">Aceptar necesarias</button>
+    <button class="px-4 py-2 rounded-none bg-red-600 hover:bg-red-700 text-white" (click)="rejectAllCookies()">Rechazar todas</button>
+  </div>
+</div>
